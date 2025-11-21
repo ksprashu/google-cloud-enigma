@@ -8,11 +8,18 @@ from google import genai
 # ---------------------------------------------------------
 
 def main():
-    # TODO 1: The API Key is missing. Retrieve it from the environment variable 'GEMINI_API_KEY'.
-    api_key = "FIX_ME" 
+    # ---------------------------------------------------------
+    # 🛑 SECURITY WARNING: 
+    # NEVER hardcode your API Key here. 
+    # Use environment variables (e.g., os.environ.get("GEMINI_API_KEY"))
+    # ---------------------------------------------------------
     
-    if not api_key or api_key == "FIX_ME":
-        print("❌ Error: GEMINI_API_KEY not found.")
+    # TODO 1: Retrieve the API Key securely from the environment.
+    api_key = None # Change this line!
+    
+    if not api_key:
+        print("❌ Error: GEMINI_API_KEY not found in environment variables.")
+        print("   Run: export GEMINI_API_KEY='your_key_here'")
         sys.exit(1)
 
     client = genai.Client(api_key=api_key)

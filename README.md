@@ -1,31 +1,59 @@
 # 🕵️‍♂️ Project Enigma: The Cloud Bureau
 
-> **Clearance Level:** RESTRICTED
-> **Status:** ACTIVE
+![Project Enigma](assets/logo_banner_main.png)
+
+> **Clearance Level:** RESTRICTED  
+> **Status:** ACTIVE  
 > **Bureau Chief:** Tensor
 
 Welcome to the **Cloud Bureau of Investigation (CBI)**.
 You have been recruited as an **AI Detective**. Your mission is to hunt down **The Null Pointer**, a rogue entity that is destabilizing the global compute grid.
 
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/google-cloud-enigma&cloudshell_tutorial=missions/mission-01/briefing.md)
+
+---
+
 ## 🧩 The Objective
 You will build, deploy, and scale your own **AI Agent** using Google Cloud's most advanced technology.
+
 *   **Floors 1-10:** Build the Brain (Gemini, Python).
 *   **Floors 11-20:** Build the Body (Cloud Run, SQL).
 *   **Floors 21-30:** Build the Memory (Vector Search, RAG).
 *   **Floors 31-50:** Build the Agency (Multi-Agent Systems).
 
-## 🚀 How to Start
-1.  **Open the Mission File:** Navigate to `missions/mission-01/briefing.md`.
-2.  **Initialize Environment:** Run `./tools/init_agent.sh` (or use Cloud Shell).
-3.  **Solve the Case:** Write the code in the `start/` folder to pass the tests.
-4.  **Submit Evidence:** Run the validation script to unlock your badge.
+## 🚀 Getting Started
+
+### 1. Acquire Credentials
+You need a **Gemini API Key** to operate your detective tools.
+*   [Get your Key here](https://aistudio.google.com/app/apikey)
+*   *Security Warning:* Never commit this key to Git.
+
+### 2. Initialize Environment
+If you clicked the **Open in Cloud Shell** button above, your terminal is ready.
+Otherwise, clone this repo and set up your workstation:
+
+```bash
+# 1. Create a virtual environment
+python3 -m venv .venv
+
+# 2. Activate it (Mac/Linux)
+source .venv/bin/activate
+# (Windows: .venv\Scripts\activate)
+
+# 3. Set your credentials
+export GEMINI_API_KEY="your_key_here"
+
+# 4. Install dependencies
+pip install -r missions/mission-01/start/requirements.txt
+```
 
 ## 📂 Case Files
-| ID | Title | Tech Stack | Difficulty | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **001** | [The Informant](missions/mission-01/briefing.md) | Gemini CLI, Python | ⭐ | OPEN |
-| **002** | The Safehouse | Cloud Run | ⭐⭐ | LOCKED |
-| **003** | The Archive | Cloud SQL, RAG | ⭐⭐⭐ | LOCKED |
+
+| Badge | ID | Title | Tech Stack | Difficulty | Status |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| <img src="assets/badge_l100_bronze.png" width="50"/> | **001** | [The Informant](missions/mission-01/briefing.md) | Gemini CLI, Python | ⭐ | **OPEN** |
+| <img src="assets/badge_l200_silver.png" width="50"/> | **002** | The Safehouse | Cloud Run | ⭐⭐ | 🔒 LOCKED |
+| 🔒 | **003** | The Archive | Cloud SQL, RAG | ⭐⭐⭐ | 🔒 LOCKED |
 
 ---
 *Property of the Cloud Bureau of Investigation. Unauthorized access will be logged.*
