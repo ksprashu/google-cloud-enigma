@@ -9,7 +9,7 @@
 Welcome to the **Cloud Bureau of Investigation (CBI)**.
 You have been recruited as an **AI Detective**. Your mission is to hunt down **The Null Pointer**, a rogue entity that is destabilizing the global compute grid.
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/google-cloud-enigma&cloudshell_tutorial=missions/mission-01/briefing.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/ksprashu/google-cloud-enigma&cloudshell_tutorial=codelabs/google-cloud-enigma-mission-01-informant/index.lab.md)
 
 ---
 
@@ -51,9 +51,9 @@ pip install -r missions/mission-01/start/requirements.txt
 
 | Badge | ID | Title | Tech Stack | Difficulty | Status |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| <img src="assets/badge_l100_bronze.png" width="50"/> | **001** | [The Informant](missions/mission-01/briefing.md) | Gemini CLI, Python | ⭐ | **OPEN** |
-| <img src="assets/badge_l200_silver.png" width="50"/> | **002** | The Safehouse | Cloud Run | ⭐⭐ | 🔒 LOCKED |
-| 🔒 | **003** | The Archive | Cloud SQL, RAG | ⭐⭐⭐ | 🔒 LOCKED |
+| <img src="assets/badge_l100_bronze.png" width="50"/> | **001** | [The Informant](missions/mission-01/) | Gemini CLI, Python | ⭐ | **OPEN** |
+| <img src="assets/badge_l200_silver.png" width="50"/> | **002** | [The Safehouse](missions/mission-02/) | Cloud Run | ⭐⭐ | **OPEN** |
+| <img src="assets/object_database_terminal.png" width="50"/> | **003** | [Total Recall](missions/mission-03/) | Cloud SQL, RAG | ⭐⭐⭐ | **OPEN** |
 
 ---
 *Property of the Cloud Bureau of Investigation. Unauthorized access will be logged.*
