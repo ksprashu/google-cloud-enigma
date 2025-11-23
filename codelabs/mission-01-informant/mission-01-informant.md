@@ -1,14 +1,21 @@
 ---
 id: enigma-mission-01-informant
-summary: Mission 01: The Informant. Your first assignment as an AI Detective.
-status: published
-authors: Agent Enigma
+description: Mission 01: The Informant. Your first assignment as an AI Detective.
+status: [hidden] {# disableFinding(LINK_MISSING_ID) #}
+keywords: docType:Codelab, skill:Beginner, product:Gemini, product:GoogleCloud, language:Python
 categories: gemini, python, cloud
-tags: beginner, python, ai
 feedback link: https://github.com/google-cloud-enigma/issues
 analytics_account: UA-XXXXXX-X
+authors: Agent Enigma
+layout: paginated
+project: /devsite/_project.yaml
+book: /devsite/_book.yaml
 
 ---
+{# disableFinding(METADATA_BOOK) #}
+{# disableFinding(METADATA_PROJECT) #}
+{# disableFinding(HEADING_NO_ID_H2) #}
+{# disableFinding(HEADING_NO_ID_H3) #}
 
 # Mission 01: The Informant
 

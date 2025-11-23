@@ -1,17 +1,23 @@
---- 
+---
 id: enigma-mission-02-safehouse
-summary: Mission 02: Containerize and deploy your AI Agent to Cloud Run.
-status: published
-authors: Agent Enigma
+description: Mission 02: Containerize and deploy your AI Agent to Cloud Run.
+status: [hidden] {# disableFinding(LINK_MISSING_ID) #}
+keywords: docType:Codelab, skill:Intermediate, product:CloudRun, product:GoogleCloud, language:Python
 categories: cloud-run, docker, python
-tags: intermediate, cloud
 feedback link: https://github.com/google-cloud-enigma/issues
 analytics_account: UA-XXXXXX-X
+authors: Agent Enigma
+layout: paginated
+project: /devsite/_project.yaml
+book: /devsite/_book.yaml
 
 ---
+{# disableFinding(METADATA_BOOK) #}
+{# disableFinding(METADATA_PROJECT) #}
+{# disableFinding(HEADING_NO_ID_H2) #}
+{# disableFinding(HEADING_NO_ID_H3) #}
 
 # Mission 02: The Safehouse
-
 ## Overview
 Duration: 1:00
 
